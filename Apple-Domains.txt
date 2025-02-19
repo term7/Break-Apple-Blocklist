@@ -1,0 +1,38 @@
+[Adblock Plus]
+! Title: BREAKS FUNCTIONALITY - Ultimate Apple Blocklist
+! BLOCK DOMAINS OWNED BY APPLE:
+! https://theapplewiki.com/wiki/List_of_Apple_domains
+! Expires: 1 day
+! Last modified: 19 Jan 2025
+! Syntax: AdBlock
+! Number of entries: 29
+!
+||aaplimg.com^
+||akamai.net^
+||apple.com^
+||apple-dns.net^
+||apple-cloudkit.com^
+||apple-livephotoskit.com^
+||apple-mapkit.com^
+||apple-relay.cloudflare.com^
+||apple-relay.fastly-edge.com^
+||appleschoolcontent.com^
+||apzones.com^
+||axm-usercontent-apple.com^
+||cdn-apple.com^
+||claris.com^
+||cp4.cloudflare.com^
+||edgesuite.net^
+||filemaker.com^
+||filemaker-cloud.com^
+||icloud.com^
+||icloud-content.com^
+||ifmcloud.com^
+||iwork.com^
+||mac.com^
+||me.com^
+||pkl-lang.org^
+||mzstatic.com^
+||posplano.com^
+||researchandcare.org^
+||safebrowsing.apple^
