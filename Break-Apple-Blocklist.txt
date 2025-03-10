@@ -5,11 +5,12 @@
 ! Expires: 1 day
 ! Last modified: 19 Jan 2025
 ! Syntax: AdBlock
-! Number of entries: 29
+! Number of entries: 32
 !
 ||aaplimg.com^
 ||akamai.net^
 ||apple.com^
+||apple.com.edgesuite.net^
 ||apple-dns.net^
 ||apple-cloudkit.com^
 ||apple-livephotoskit.com^
@@ -25,14 +26,16 @@
 ||edgesuite.net^
 ||filemaker.com^
 ||filemaker-cloud.com^
+||foundationdb.org^
 ||icloud.com^
+||icloud.com.cn^
 ||icloud-content.com^
 ||ifmcloud.com^
 ||iwork.com^
 ||mac.com^
 ||me.com^
-||pkl-lang.org^
 ||mzstatic.com^
+||pkl-lang.org^
 ||posplano.com^
 ||researchandcare.org^
 ||safebrowsing.apple^
