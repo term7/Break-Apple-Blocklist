@@ -1,5 +1,5 @@
 [Adblock Plus]
-! Title: BREAKS FUNCTIONALITY - Ultimate Apple Blocklist
+! Title: WARNING: BREAKS APPLE SOFTWARE - Ultimate Apple Blocklist
 ! BLOCK DOMAINS OWNED BY APPLE:
 ! https://theapplewiki.com/wiki/List_of_Apple_domains
 ! Expires: 1 day
