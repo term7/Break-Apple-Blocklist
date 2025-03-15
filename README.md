@@ -5,7 +5,7 @@ https://theapplewiki.com/wiki/List_of_Apple_domains
 
 It will more or less disconnect all Apple Services. It will feel like you are partly offline (no AppleMusic Store, no Apple Weather Updates, no AppStore, no Updates...), while normal browsing in Firefox, etc. will still work.
 
-We allowed a few apple subdomains responsible for system updates:
+We allowed a few Apple subdomains responsible for system updates:
 
 mesu.apple.com → Checks for updates.<br>
 swcdn.apple.com / swdownload.apple.com / swcdn.g.aaplimg.com → Downloads updates.<br>
