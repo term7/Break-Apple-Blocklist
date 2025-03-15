@@ -6,7 +6,7 @@
 ! Expires: 1 day
 ! Last modified: 15 Mar 2025
 ! Syntax: AdBlock
-! Number of entries: 39
+! Number of entries: 40
 !
 ! ALLOWLIST FOR SYSTEM UPDATES:
 !
