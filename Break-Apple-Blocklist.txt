@@ -12,6 +12,7 @@
 !
 @@||mesu.apple.com^$important
 @@||swcdn.apple.com^$important
+@@||swcdn.g.aaplimg.com^$important
 @@||swdownload.apple.com^$important
 @@||appldnld.apple.com^$important
 @@||oscdn.apple.com^$important
