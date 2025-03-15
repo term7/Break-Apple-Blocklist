@@ -7,11 +7,11 @@ It will more or less disconnect all Apple Services. It will feel like you are pa
 
 We allowed a few apple subdomains responsible for system updates:
 
-mesu.apple.com → Checks for updates.
-swcdn.apple.com / swdownload.apple.com / swcdn.g.aaplimg.com → Downloads updates.
-appldnld.apple.com → macOS installer downloads.
-oscdn.apple.com → Content Delivery for updates.
-gdmf.apple.com → Firmware updates.
+mesu.apple.com → Checks for updates.<br>
+swcdn.apple.com / swdownload.apple.com / swcdn.g.aaplimg.com → Downloads updates.<br>
+appldnld.apple.com → macOS installer downloads.<br>
+oscdn.apple.com → Content Delivery for updates.<br>
+gdmf.apple.com → Firmware updates.<br>
 gs.apple.com → Firmware signing (important for installing updates).
 
 If you want to use Apple Services but still block known trackers, use this list instead:
