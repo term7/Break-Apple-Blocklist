@@ -2,10 +2,13 @@
 ! Title: WARNING: BREAKS APPLE SOFTWARE - Ultimate Apple Blocklist
 ! BLOCK DOMAINS OWNED BY APPLE:
 ! https://theapplewiki.com/wiki/List_of_Apple_domains
+! Minimal Allow List for System Updates
 ! Expires: 1 day
-! Last modified: 19 Jan 2025
+! Last modified: 15 Mar 2025
 ! Syntax: AdBlock
-! Number of entries: 32
+! Number of entries: 39
+!
+! BLOCKLIST
 !
 ||aaplimg.com^
 ||akamai.net^
@@ -39,3 +42,13 @@
 ||posplano.com^
 ||researchandcare.org^
 ||safebrowsing.apple^
+!
+! ALLOWLIST FOR SYSTEM UPDATES:
+!
+@@||mesu.apple.com^$important ! Check for updates
+@@||swcdn.apple.com^$important ! Download updates
+@@||swdownload.apple.com^$important ! Download updates
+@@||appldnld.apple.com^$important ! Download macOS installers
+@@||oscdn.apple.com^$important ! CDN for updates
+@@||gdmf.apple.com^$important ! Firmware updates
+@@||gs.apple.com^$important ! Firmware signing, for system integrity
