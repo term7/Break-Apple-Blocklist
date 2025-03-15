@@ -8,6 +8,16 @@
 ! Syntax: AdBlock
 ! Number of entries: 39
 !
+! ALLOWLIST FOR SYSTEM UPDATES:
+!
+@@||mesu.apple.com^$important
+@@||swcdn.apple.com^$important
+@@||swdownload.apple.com^$important
+@@||appldnld.apple.com^$important
+@@||oscdn.apple.com^$important
+@@||gdmf.apple.com^$important
+@@||gs.apple.com^$important
+!
 ! BLOCKLIST
 !
 ||aaplimg.com^
@@ -42,13 +52,3 @@
 ||posplano.com^
 ||researchandcare.org^
 ||safebrowsing.apple^
-!
-! ALLOWLIST FOR SYSTEM UPDATES:
-!
-@@||mesu.apple.com^$important ! Check for updates
-@@||swcdn.apple.com^$important ! Download updates
-@@||swdownload.apple.com^$important ! Download updates
-@@||appldnld.apple.com^$important ! Download macOS installers
-@@||oscdn.apple.com^$important ! CDN for updates
-@@||gdmf.apple.com^$important ! Firmware updates
-@@||gs.apple.com^$important ! Firmware signing, for system integrity
