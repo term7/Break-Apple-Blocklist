@@ -67,10 +67,14 @@
 ! → gdmf = Gatekeeper Download Metadata Feed
 ! → macOS uses either gdmf.apple.com or gdmf.v.aaplimg.com
 !
-! OSCP: part of Apple's security and trust infrastructure
+! OCSP = Online Certificate Status Protocol
+! → Part of Apple's security and trust infrastructure
 ! → Uncomment, if you want to allow this:
 !@@||ocsp.apple.com^$important
-!@@||crl.apple.com^$important
 ! → Certificate validation (OCSP)
 ! → Real-time certificate revocation checking for apps, websites, system updates
+!@@||crl.apple.com^$important
+! CLR = Certificate Revocation Lists
+! Fallback or supplement to OCSP
+!
 ! → CONSIDER: Apple was criticized in 2020 for logging OCSP requests, which could potentially be used to infer which apps a user is opening.
