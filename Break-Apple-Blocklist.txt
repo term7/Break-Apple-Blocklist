@@ -1,8 +1,8 @@
 [Adblock Plus]
 ! Title: WARNING: BREAKS APPLE SOFTWARE - Ultimate Apple Blocklist
-! BLOCK DOMAINS OWNED BY APPLE:
-! https://theapplewiki.com/wiki/List_of_Apple_domains
-! Minimal Allow List for System Updates
+! Description: Ultimate Apple Blocklist - WARNING: Breaks Apple Services
+! Comment: Allows critical Software and Security Updates
+! Source: https://theapplewiki.com/wiki/List_of_Apple_domains
 ! Expires: 1 day
 ! Last modified: 21 Mar 2025
 ! Syntax: AdBlock
