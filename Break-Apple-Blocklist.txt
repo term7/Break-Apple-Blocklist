@@ -46,6 +46,7 @@
 ! ALLOWLIST
 !
 ! Apple System and Security Updates:
+!
 @@||mesu.apple.com^$important
 ! → Checks for macOS, Safari, MRT, and XProtect updates
 ! → Checks for Safari version updates (on macOS)
