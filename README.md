@@ -3,11 +3,11 @@
 This AdGuard blocklist is based on:
 https://theapplewiki.com/wiki/List_of_Apple_domains
 
-It will more or less disconnect all Apple Services. It will feel like you are partly offline (no AppleMusic Store, no Apple Weather Updates, no AppStore, no Updates...), while normal browsing in Firefox, etc. will still work.
+**⚠️ Warning: Enabling this list will completely break most Apple services, including (but not limited to): iCloud, Apple TV+, Apple Music, Apple Arcade, Apple Maps, Apple News+, Apple Pay, App Store, iMessage, FaceTime, FindMy, etc.**
 
 * * *
 
-We allow Apple subdomains responsible for system updates:
+#### Allow Apple subdomains needed for critical system and security updates:
 
 1. mesu.apple.com
 - Checks for macOS, Safari, MRT, and XProtect updates.
