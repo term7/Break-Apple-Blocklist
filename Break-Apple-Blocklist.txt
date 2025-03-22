@@ -48,33 +48,14 @@
 ! Apple System and Security Updates:
 !
 @@||mesu.apple.com^$important
-! → Checks for macOS, Safari, MRT, and XProtect updates
-! → Checks for Safari version updates (on macOS)
 @@||swscan.apple.com^$important
-! → Initiates update check! 
-! → Metadata for Safari updates are also scanned here
 @@||swdist.apple.com^$important
-! → Download full and delta macOS update packages
-! → Downloads updates for macOS, Safari, security patches
 @@||gdmf.apple.com^$important
-! → gdmf = Gatekeeper Download Metadata Feed
-! → Checks whether an app is notarized and safe to open
-! → When opening apps for the first time, it checks their trust status
-! → Verifies if a downloaded app has been approved and notarized
-! → Checks notarization of app installers during install
-! → Some system update components use gdmf to verify trust before allowing an update to proceed
 @@||gdmf.v.aaplimg.com^$important
-! → gdmf = Gatekeeper Download Metadata Feed
-! → macOS uses either gdmf.apple.com or gdmf.v.aaplimg.com
 !
 ! OCSP = Online Certificate Status Protocol
-! → Part of Apple's security and trust infrastructure
 ! → Uncomment, if you want to allow this:
 !@@||ocsp.apple.com^$important
-! → Certificate validation (OCSP)
-! → Real-time certificate revocation checking for apps, websites, system updates
 !@@||crl.apple.com^$important
-! CLR = Certificate Revocation Lists
-! Fallback or supplement to OCSP
 !
 ! → CONSIDER: Apple was criticized in 2020 for logging OCSP requests, which could potentially be used to infer which apps a user is opening.
