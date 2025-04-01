@@ -14,7 +14,7 @@
 ||akamai.net^
 ||apple.com^
 ||apple.com.edgesuite.net^
-||.apple.map.fastly.net^
+||apple.map.fastly.net^
 ||apple-dns.net^
 ||apple-cloudkit.com^
 ||apple-livephotoskit.com^
