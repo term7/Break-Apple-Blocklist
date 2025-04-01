@@ -6,7 +6,7 @@
 ! Expires: 1 day
 ! Last modified: 01 Apr 2025
 ! Syntax: AdBlock
-! Number of entries: 39
+! Number of entries: 40
 !
 ! BLOCKLIST
 !
@@ -51,6 +51,7 @@
 @@||mesu.apple.com^$important
 @@||swscan.apple.com^$important
 @@||swdist.apple.com^$important
+@@||swcdn.apple.com^$important
 @@||gdmf.apple.com^$important
 @@||gdmf.v.aaplimg.com^$important
 @@||updates.cdn-apple.com^$important

@@ -18,7 +18,7 @@ https://theapplewiki.com/wiki/List_of_Apple_domains
 3. **swdist.apple.com**
 - Download full and delta macOS update packages.
 - Downloads updates for macOS, Safari, security patches.
-4. **updates.cdn-apple.com**
+4. **updates.cdn-apple.com** and **swcdn.apple.com**
 - MacOS Updates
 5. **gdmf.apple.com**
 - gdmf = Gatekeeper Download Metadata Feed.
