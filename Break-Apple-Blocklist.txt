@@ -4,9 +4,9 @@
 ! Comment: Allows critical Software and Security Updates
 ! Source: https://theapplewiki.com/wiki/List_of_Apple_domains
 ! Expires: 1 day
-! Last modified: 21 Mar 2025
+! Last modified: 01 Apr 2025
 ! Syntax: AdBlock
-! Number of entries: 37
+! Number of entries: 39
 !
 ! BLOCKLIST
 !
@@ -14,6 +14,7 @@
 ||akamai.net^
 ||apple.com^
 ||apple.com.edgesuite.net^
+||.apple.map.fastly.net^
 ||apple-dns.net^
 ||apple-cloudkit.com^
 ||apple-livephotoskit.com^
