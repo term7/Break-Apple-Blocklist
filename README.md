@@ -18,14 +18,16 @@ https://theapplewiki.com/wiki/List_of_Apple_domains
 3. **swdist.apple.com**
 - Download full and delta macOS update packages.
 - Downloads updates for macOS, Safari, security patches.
-4. **gdmf.apple.com**
+4. **updates.cdn-apple.com**
+- MacOS Updates
+5. **gdmf.apple.com**
 - gdmf = Gatekeeper Download Metadata Feed.
 - Checks whether an app is notarized and safe to open.
 - When opening apps for the first time, it checks their trust status.
 - Verifies if a downloaded app has been approved and notarized.
 - Checks notarization of app installers during install.
 - Some system update components use gdmf to verify trust before allowing an update to proceed.
-5. **gdmf.v.aaplimg.com**
+6. **gdmf.v.aaplimg.com**
 - gdmf = Gatekeeper Download Metadata Feed.
 - macOS uses either gdmf.apple.com or gdmf.v.aaplimg.com.
 

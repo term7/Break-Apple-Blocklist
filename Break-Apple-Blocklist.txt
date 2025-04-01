@@ -52,6 +52,7 @@
 @@||swdist.apple.com^$important
 @@||gdmf.apple.com^$important
 @@||gdmf.v.aaplimg.com^$important
+@@||updates.cdn-apple.com^$important
 !
 ! OCSP = Online Certificate Status Protocol
 ! → Uncomment, if you want to allow this:
