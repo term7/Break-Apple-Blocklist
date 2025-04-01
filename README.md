@@ -9,6 +9,9 @@ https://theapplewiki.com/wiki/List_of_Apple_domains
 
 #### Allow Apple subdomains needed for critical system and security updates:
 
+Note: The domains required for Apple system updates may vary by region.
+The current allowlist has been tested and confirmed to work for devices in Central Europe, but you may need to adjust it based on your geographic location to ensure updates function correctly.
+
 1. **mesu.apple.com**
 - Checks for macOS, Safari, MRT, and XProtect updates.
 - Checks for Safari version updates (on macOS).
@@ -18,7 +21,7 @@ https://theapplewiki.com/wiki/List_of_Apple_domains
 3. **swdist.apple.com**
 - Download full and delta macOS update packages.
 - Downloads updates for macOS, Safari, security patches.
-4. **updates.cdn-apple.com** and **swcdn.apple.com**
+4. **updates.cdn-apple.com** and **swcdn.apple.com**, **swcdn.g.aaplimg.com**
 - MacOS Updates
 5. **gdmf.apple.com**
 - gdmf = Gatekeeper Download Metadata Feed.

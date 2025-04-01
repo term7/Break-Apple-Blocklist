@@ -52,6 +52,7 @@
 @@||swscan.apple.com^$important
 @@||swdist.apple.com^$important
 @@||swcdn.apple.com^$important
+@@||swcdn.g.aaplimg.com^$important
 @@||gdmf.apple.com^$important
 @@||gdmf.v.aaplimg.com^$important
 @@||updates.cdn-apple.com^$important
