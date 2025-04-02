@@ -69,5 +69,5 @@
 ! → However: seems to be necessary for the update process. We still do not enable them by default.
 ! → You could add them to your custom filters and enable these domains only during system updates!
 !
-!@@||cds.apple.com^$important
-!@@||lcdn-locator.apple.com^$important
+@@||cds.apple.com^$important
+@@||lcdn-locator.apple.com^$important
