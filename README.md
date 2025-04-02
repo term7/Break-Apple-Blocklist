@@ -14,38 +14,25 @@ The current allowlist has been tested and allows the system to check for and dow
 
 In the meantime, we recommend temporarily disabling the blocklist when performing system updates, and re-enabling it once the update is complete.
 
-1. **mesu.apple.com**
-- Checks for macOS, Safari, MRT, and XProtect updates.
-- Checks for Safari version updates (on macOS).
-2. **swscan.apple.com**
-- Initiates update check!
-- Metadata for Safari updates are also scanned here.
-3. **swdist.apple.com**
-- Download full and delta macOS update packages.
-- Downloads updates for macOS, Safari, security patches.
-4. **updates.cdn-apple.com**
-- Distributes OS updates, firmware, and installer packages.
-5. **updates.g.aaplimg.com**
-- Delivers macOS/iOS update metadata, manifests, and payloads.
-- Acts as an intermediate CNAME target for: **updates.cdn-apple.com**.
-- Resolves to CDN endpoints like **download.apple.map.fastly.net**.
-6. **download.apple.map.fastly.net**
-- Delivers Apple software update payloads, such as macOS and iOS installers or patches.
-7. **swcdn.apple.com**
-- Hosts update files, installers, and developer tools.
-8. **swcdn.g.aaplimg.com**
-- Backend domain for macOS/iOS updates, often reached via CDN redirection.
-- Delivers firmware, delta updates, and installer packages.
-9. **gdmf.apple.com**
-- gdmf = Gatekeeper Download Metadata Feed.
-- Checks whether an app is notarized and safe to open.
-- When opening apps for the first time, it checks their trust status.
-- Verifies if a downloaded app has been approved and notarized.
-- Checks notarization of app installers during install.
-- Some system update components use gdmf to verify trust before allowing an update to proceed.
-10. **gdmf.v.aaplimg.com**
-- gdmf = Gatekeeper Download Metadata Feed.
-- macOS uses either gdmf.apple.com or gdmf.v.aaplimg.com.
+### 🍏 **Apple macOS Update & Verification Domains Reference**
+
+| **Domain**                        | **Purpose**                | **Explanation** |
+|----------------------------------|----------------------------|-----------------|
+| `mesu.apple.com`                 | Update metadata            | Checks for available macOS updates, Safari, XProtect (malware definitions), and MRT (Malware Removal Tool) updates. |
+| `swscan.apple.com`              | Catalog metadata           | Works with `mesu.apple.com` to initiate update checks and fetch catalog info, including Safari updates. |
+| `swdist.apple.com`              | Update distribution metadata | Provides the metadata for delta and full update packages. Tells the system where to fetch update files from. |
+| `swcdn.apple.com`               | Update payloads            | Apple's CDN that hosts actual macOS update files, full installers, Safari updates, and developer tools. |
+| `swcdn.g.aaplimg.com`           | CDN alias for update payloads | CNAME target of `swcdn.apple.com`, used to serve delta updates, installer packages, and system components. |
+| `updates.cdn-apple.com`         | CDN entry point            | CDN routing domain for OS updates, firmware, and system installers. Resolves to Fastly or Akamai. |
+| `updates.g.aaplimg.com`         | CDN intermediate           | CNAME target for `updates.cdn-apple.com`, delivering update metadata and payload pointers. |
+| `download.apple.map.fastly.net`| Final CDN endpoint         | Fastly-hosted endpoint that delivers actual update payloads like macOS installers and patches. |
+| `gdmf.apple.com`                | Gatekeeper trust metadata  | Stands for Gatekeeper Download Metadata Feed. Used by macOS to verify whether apps and installers are notarized and safe to run. May also be queried during update prep. |
+| `gdmf.v.aaplimg.com`            | CDN alias for notarization | CNAME variant of `gdmf.apple.com`. macOS may use this as an alternative endpoint to retrieve notarization status. |
+| `ocsp.apple.com`                | Certificate status check   | Used for **OCSP (Online Certificate Status Protocol)** to verify that Apple-issued certificates (used to sign apps, updates, etc.) haven’t been revoked. |
+| `ocsp2.apple.com`               | Backup OCSP server         | Backup/secondary OCSP endpoint to ensure reliable certificate revocation checks. |
+| `crl.apple.com`                 | Certificate revocation list| Used if OCSP fails; delivers full revocation lists (CRLs) to check whether certs are still valid. |
+| `valid.apple.com`              | Certificate validation     | Verifies the validity and trustworthiness of Apple-signed assets (e.g., updates, apps). Helps validate app or system update integrity. |
+
 
 * * *
 
