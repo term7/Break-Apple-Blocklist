@@ -23,19 +23,26 @@ The current allowlist has been tested and confirmed to work for devices in Centr
 - Downloads updates for macOS, Safari, security patches.
 4. **updates.cdn-apple.com**
 - Distributes OS updates, firmware, and installer packages.
-5. **swcdn.apple.com**
+5. **updates.g.aaplimg.com**
+- Delivers macOS/iOS update metadata, manifests, and payloads.
+- Acts as an intermediate CNAME target for: **updates.cdn-apple.com**.
+- Resolves to CDN endpoints like **download.apple.map.fastly.net**.
+6. **download.apple.map.fastly.net**
+- Delivers Apple software update payloads, such as macOS and iOS installers or patches.
+- User during "Preparing update…" and install phases.
+7. **swcdn.apple.com**
 - Hosts update files, installers, and developer tools.
-6. **swcdn.g.aaplimg.com**
+8. **swcdn.g.aaplimg.com**
 - Backend domain for macOS/iOS updates, often reached via CDN redirection.
 - Delivers firmware, delta updates, and installer packages.
-7. **gdmf.apple.com**
+9. **gdmf.apple.com**
 - gdmf = Gatekeeper Download Metadata Feed.
 - Checks whether an app is notarized and safe to open.
 - When opening apps for the first time, it checks their trust status.
 - Verifies if a downloaded app has been approved and notarized.
 - Checks notarization of app installers during install.
 - Some system update components use gdmf to verify trust before allowing an update to proceed.
-7. **gdmf.v.aaplimg.com**
+10. **gdmf.v.aaplimg.com**
 - gdmf = Gatekeeper Download Metadata Feed.
 - macOS uses either gdmf.apple.com or gdmf.v.aaplimg.com.
 
