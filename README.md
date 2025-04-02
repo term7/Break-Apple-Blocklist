@@ -14,7 +14,7 @@ The current allowlist has been tested and allows the system to check for and dow
 
 In the meantime, we recommend temporarily disabling the blocklist when performing system updates, and re-enabling it once the update is complete.
 
-### 🍏 **Apple macOS Update & Verification Domains Reference**
+### **Apple macOS Update & Verification Domains Reference**
 
 | **Domain**                        | **Purpose**                | **Explanation** |
 |----------------------------------|----------------------------|-----------------|
