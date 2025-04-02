@@ -6,7 +6,7 @@
 ! Expires: 1 day
 ! Last modified: 01 Apr 2025
 ! Syntax: AdBlock
-! Number of entries: 43
+! Number of entries: 45
 !
 ! BLOCKLIST
 !
