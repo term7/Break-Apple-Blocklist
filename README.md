@@ -10,7 +10,9 @@ https://theapplewiki.com/wiki/List_of_Apple_domains
 #### Allow Apple subdomains needed for critical system and security updates:
 
 Note: The domains required for Apple system updates may vary by region.
-The current allowlist has been tested and confirmed to work for devices in Central Europe, but you may need to adjust it based on your geographic location to ensure updates function correctly.
+The current allowlist has been tested and allows the system to check for and download updates. However, the update fails during the *Preparing updates…* phase. We have not yet identified the additional domains required for this step to succeed.
+
+In the meantime, we recommend temporarily disabling the blocklist when performing system updates, and re-enabling it once the update is complete.
 
 1. **mesu.apple.com**
 - Checks for macOS, Safari, MRT, and XProtect updates.
@@ -29,7 +31,6 @@ The current allowlist has been tested and confirmed to work for devices in Centr
 - Resolves to CDN endpoints like **download.apple.map.fastly.net**.
 6. **download.apple.map.fastly.net**
 - Delivers Apple software update payloads, such as macOS and iOS installers or patches.
-- User during "Preparing update…" and install phases.
 7. **swcdn.apple.com**
 - Hosts update files, installers, and developer tools.
 8. **swcdn.g.aaplimg.com**
