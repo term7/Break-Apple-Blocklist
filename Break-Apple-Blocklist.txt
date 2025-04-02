@@ -64,6 +64,7 @@
 !@@||ocsp.apple.com^$important
 !@@||ocsp2.apple.com^$important
 !@@||crl.apple.com^$important
+!@@||valid.apple.com^$important
 !
 ! → CONSIDER: Apple was criticized in 2020 for logging OCSP requests, which could potentially be used to infer which apps a user is opening.
 ! → However: seems to be necessary for the update process. We still do not enable them by default.
