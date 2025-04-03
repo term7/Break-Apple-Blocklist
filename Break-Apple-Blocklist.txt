@@ -60,12 +60,13 @@
 @@||download.apple.map.fastly.net^$important
 !
 ! OCSP = Online Certificate Status Protocol
-! → Uncomment, if you want to allow this:
-@@||ocsp.apple.com^$important
-@@||ocsp2.apple.com^$important
-@@||ocsp2.g.aaplimg.com^$important
-@@||crl.apple.com^$important
-@@||valid.apple.com^$important
+! → Uncomment, if you want to allow this permanently:
+! → Alternatively add these rules to your custom filter to ensure updates pass verification checks
+!@@||ocsp.apple.com^$important
+!@@||ocsp2.apple.com^$important
+!@@||ocsp2.g.aaplimg.com^$important
+!@@||crl.apple.com^$important
+!@@||valid.apple.com^$important
 !
 ! → CONSIDER: Apple was criticized in 2020 for logging OCSP requests, which could potentially be used to infer which apps a user is opening.
 ! → However: seems to be necessary for the update process. We still do not enable them by default.
