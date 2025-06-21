@@ -47,5 +47,5 @@ https://codeberg.org/hagezi/mirror2/raw/branch/main/dns-blocklists/adblock/nativ
 This repository is actively maintained on Codeberg:
 https://codeberg.org/term7/Break-Apple-Blocklist
 
-Changes are puhsed regularily to our Githoub Mirror:
+Changes are puhsed regularly to our Githoub Mirror:
 https://github.com/term7/Break-Apple-Blocklist
