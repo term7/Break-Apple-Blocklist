@@ -42,7 +42,9 @@ The current allowlist has been tested and allows the system to check for and dow
 If you want to use Apple Services but still block known trackers, use this list instead:
 https://codeberg.org/hagezi/mirror2/raw/branch/main/dns-blocklists/adblock/native.apple.txt
 
-### **MIRRORS**
+***
+
+# **MIRRORS**
 
 This repository is actively maintained on Codeberg:<br>
 https://codeberg.org/term7/Break-Apple-Blocklist
