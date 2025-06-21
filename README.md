@@ -3,6 +3,8 @@
 This AdGuard blocklist is based on:
 https://theapplewiki.com/wiki/List_of_Apple_domains
 
+Apple is known to implement strong privacy features in its products. Nevertheless, certain forms of user tracking still occur. This article explores how Apple collects data despite its emphasis on privacy: https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558
+
 **⚠️ Warning: Enabling this list will completely break most Apple services, including (but not limited to): iCloud, Apple TV+, Apple Music, Apple Arcade, Apple Maps, Apple News+, Apple Pay, App Store, iMessage, FaceTime, FindMy, etc.**
 
 * * *
@@ -10,9 +12,7 @@ https://theapplewiki.com/wiki/List_of_Apple_domains
 #### Allow Apple subdomains needed for critical system and security updates:
 
 Note: The domains required for Apple system updates may vary by region.
-The current allowlist has been tested and allows the system to check for and download updates. However, the update fails during the *Preparing updates…* phase. We have not yet identified the additional domains required for this step to succeed.
-
-In the meantime, we recommend temporarily disabling the blocklist when performing system updates, and re-enabling it once the update is complete.
+The current allowlist has been tested and allows the system to check for and download updates.
 
 ### **Apple macOS Update & Verification Domains Reference**
 
