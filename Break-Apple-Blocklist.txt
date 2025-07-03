@@ -6,11 +6,12 @@
 ! Expires: 1 day
 ! Last modified: 01 Apr 2025
 ! Syntax: AdBlock
-! Number of entries: 45
+! Number of entries: 55
 !
 ! BLOCKLIST
 !
 ||aaplimg.com^
+||acwellness.com^
 ||akamai.net^
 ||apple.com^
 ||apple.com.edgesuite.net^
@@ -21,13 +22,18 @@
 ||apple-mapkit.com^
 ||apple-relay.cloudflare.com^
 ||apple-relay.fastly-edge.com^
+||apple-wellnesscenter.com^
 ||appleschoolcontent.com^
+||appstore.com^
 ||apzones.com^
 ||axm-usercontent-apple.com^
+||beatsbydre.com^
+||beddit.com^
 ||cdn-apple.com^
 ||claris.com^
 ||cp4.cloudflare.com^
 ||edgesuite.net^
+||g.akamai.net^
 ||filemaker.com^
 ||filemaker-cloud.com^
 ||foundationdb.org^
@@ -35,14 +41,18 @@
 ||icloud.com.cn^
 ||icloud-content.com^
 ||ifmcloud.com^
+||itunes.com^
 ||iwork.com^
 ||mac.com^
 ||me.com^
 ||mzstatic.com^
+||pixelmator.com^
 ||pkl-lang.org^
+||platoon.ai^
 ||posplano.com^
 ||researchandcare.org^
 ||safebrowsing.apple^
+||selfservicerepair.com^
 !
 ! ALLOWLIST
 !
@@ -57,7 +67,8 @@
 @@||gdmf.v.aaplimg.com^$important
 @@||updates.cdn-apple.com^$important
 @@||updates.g.aaplimg.com^$important
-@@||download.apple.map.fastly.net^$important
+@@||download.apple.map.fastly.net^$important@@||cds.apple.com^$important
+@@||lcdn-locator.apple.com^$important
 !
 ! OCSP = Online Certificate Status Protocol
 ! → Uncomment, if you want to allow this permanently:
@@ -71,6 +82,3 @@
 ! → CONSIDER: Apple was criticized in 2020 for logging OCSP requests, which could potentially be used to infer which apps a user is opening.
 ! → However: seems to be necessary for the update process. We still do not enable them by default.
 ! → You could add them to your custom filters and enable these domains only during system updates!
-!
-@@||cds.apple.com^$important
-@@||lcdn-locator.apple.com^$important
