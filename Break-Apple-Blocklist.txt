@@ -4,15 +4,14 @@
 ! Comment: Allows critical Software and Security Updates
 ! Source: https://theapplewiki.com/wiki/List_of_Apple_domains
 ! Expires: 1 day
-! Last modified: 01 Apr 2025
+! Last modified: 28 Aug 2025
 ! Syntax: AdBlock
-! Number of entries: 55
+! Number of entries: 54
 !
 ! BLOCKLIST
 !
 ||aaplimg.com^
 ||acwellness.com^
-||akamai.net^
 ||apple.com^
 ||apple.com.edgesuite.net^
 ||apple.map.fastly.net^
@@ -71,7 +70,7 @@
 @@||lcdn-locator.apple.com^$important
 !
 ! OCSP = Online Certificate Status Protocol
-! → Uncomment, if you want to allow this permanently:
+! → Uncomment the following rules, if you want to allow OSCP permanently
 ! → Alternatively add these rules to your custom filter to ensure updates pass verification checks
 !@@||ocsp.apple.com^$important
 !@@||ocsp2.apple.com^$important
